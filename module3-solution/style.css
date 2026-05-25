@@ -1,0 +1,115 @@
+/* ============================================================
+   Food, LLC  –  Module 3 Assignment  –  External Stylesheet
+   NO inline styles are used anywhere in this project.
+   ============================================================ */
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: #3e2723;   /* dark brown */
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  color: #ffcc80 !important;   /* warm amber */
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+  color: #ffe0b2 !important;
+}
+
+/* Hamburger icon bars */
+.navbar-toggle {
+  border-color: #ffcc80;
+}
+.navbar-toggle .icon-bar {
+  background-color: #ffcc80;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: rgba(255, 204, 128, 0.15);
+}
+
+/* ---------- Mobile dropdown ---------- */
+/* Give the collapsed area a distinct background */
+.navbar-collapse {
+  background-color: #4e342e;   /* slightly lighter brown */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Full-width nav items */
+.navbar-nav {
+  margin: 0;
+  width: 100%;
+}
+.navbar-nav > li {
+  width: 100%;
+}
+.navbar-nav > li > a {
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: rgba(255, 204, 128, 0.2) !important;
+  color: #ffcc80 !important;
+}
+
+/* ---------- Page heading ---------- */
+.page-heading {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 38px;
+  color: #3e2723;
+}
+
+/* ---------- Required single-section ---------- */
+.menu-section {
+  background-color: #fff8e1;   /* distinct from page background */
+  border: 1px solid #ffe082;
+  border-radius: 4px;
+  min-height: 1000px;          /* tall enough to require scrolling */
+  padding: 30px 25px;
+  margin-bottom: 30px;
+}
+
+/* ---------- Optional 3-column sections ---------- */
+.col-section {
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 4px;
+  min-height: 700px;
+  padding: 25px 20px 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.col-section h3 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #2e7d32;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+.back-to-top:hover {
+  color: #ffcc80;
+}
